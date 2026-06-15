@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 2px 4px 20px 0px black;
+}
+
+th {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  background: linear-gradient(84deg, blue 0%, #00b9e8 100%);
+}
+td {
+  border-bottom: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.9);
+}
+tr:hover td {
+  background: rgb(120, 120, 245);
+}
