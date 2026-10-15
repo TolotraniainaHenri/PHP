@@ -1,0 +1,97 @@
+body {
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(0, 0, 255);
+}
+.titre h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 9px 6px #37304d;
+  font-size: 3rem;
+  color: rgb(247, 247, 247);
+}
+.ligne {
+  display: flex;
+  justify-content: space-around;
+}
+.colonne1 {
+  background: skyblue;
+  margin: 10px;
+  padding: 20px;
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 3px 8px 20px 0px #000001;
+}
+.colonne2 {
+  background: skyblue;
+  margin: 10px;
+  padding: 20px;
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 3px 8px 20px 0px #000001;
+}
+.colonne1 input,
+.colonne2 input,
+.colonne2 select {
+  margin: 5px;
+  height: 25px;
+  border: 1px solid #37304d;
+  border-radius: 5px;
+}
+.message {
+  background: rgb(12, 8, 252);
+  border-bottom: 2px solid rgb(254, 254, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  margin: 15px;
+  height: 25px;
+  padding-left: 15px;
+  position: relative;
+}
+p {
+  letter-spacing: 8px;
+  color: rgb(241, 243, 248);
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  top: -15px;
+}
+table {
+  height: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background: linear-gradient(15deg, #04f7ff 0% 0%, #003eff 100%);
+  color: black;
+}
+td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.9);
+}
+tr:hover td {
+  background: #81acbd;
+}
+.table1 {
+  margin-top: 20px;
+  box-shadow: 4px 5px 13px 6px #0f0e30;
+}
+.liste {
+  height: 20 px;
+  text-align: center;
+}
+.liste h2 {
+  font-size: 1, 5rem;
+  color: #ddd;
+  text-shadow: -2px -4px 0px #020202;
+}
+.table2 {
+  margin-top: 20px;
+  box-shadow: 4px 5px 13px 6px #0f0e30;
+}
+img {
+  height: 30px;
+  margin: 8px;
+}

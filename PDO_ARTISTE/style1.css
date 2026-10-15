@@ -1,0 +1,96 @@
+body {
+  background: #505255;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+  color: rgb(241, 241, 247);
+}
+.container {
+  height: 358px;
+  width: 220px;
+  border: 1px solid #2d2c32;
+  position: relative;
+  padding: 25px;
+  background: linear-gradient(10deg, #262e3c 0% 0%, #202122 100%);
+  border-radius: 15px;
+  box-shadow: 13px 13px 15px 0px #191919;
+}
+.btn {
+  height: 50px;
+  margin: 10px 0px;
+  border-top: white;
+  border-radius: 10px;
+  box-shadow: -1px -1px 0px 0px #ffffff1c;
+  padding: 2px;
+}
+input,
+select {
+  height: 26px;
+  width: 210px;
+  border-radius: 10px;
+}
+.Texte {
+  height: 40px;
+  width: 221px;
+  border-top: 3px solid #ffff;
+  border-bottom: 3px solid #ffff;
+  align-items: center;
+}
+.ligne {
+  display: grid;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.ligne input {
+  height: 31px;
+  width: 90px;
+  position: absolute;
+  top: -29px;
+  left: 3px;
+  background: linear-gradient(145deg, #1e293b 0% 0%, #000000 100%);
+  color: #edecf5;
+  font-family: 2rem;
+}
+.ligne input:hover {
+  background: linear-gradient(145deg, #010a1a 0% 0%, #454169 100%);
+  box-shadow: 1px 1px 5px 0px white;
+}
+a {
+  height: 35px;
+  width: 92px;
+  position: absolute;
+  top: -27px;
+  left: 125px;
+  z-index: 2;
+  color: aliceblue;
+}
+.bouton {
+  height: 28px;
+  width: 90px;
+  color: #edecf5;
+  border: 2px solid #505255;
+  border-radius: 10px;
+  position: absolute;
+  top: -4px;
+  left: -5px;
+  text-align: center;
+  background: linear-gradient(145deg, #1e293b 0% 0%, #000000 100%);
+}
+.bouton:hover {
+  background: linear-gradient(145deg, #010a1a 0% 0%, #1c1a31 100%);
+  box-shadow: 1px 1px 5px 0px white;
+}
+p {
+  font-size: 0.8rem;
+  color: rgb(82, 92, 85);
+}
+h3 {
+  color: #edecf5;
+  text-align: center;
+}
